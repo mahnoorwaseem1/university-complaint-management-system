@@ -1,0 +1,20 @@
+.row{
+	height:80px;
+	background-color:#059BC9;
+	opacity:0.8;
+  }
+/* 
+.crt
+{
+	color: rgb(185, 9, 9);
+} */
+.err
+{
+	color: red;
+}
+.err1
+{
+	color: #ff0000;
+}
+
+
