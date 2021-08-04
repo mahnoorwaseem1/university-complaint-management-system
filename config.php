@@ -57,6 +57,20 @@ if ($conn->connect_error) {
 //     echo "Error creating table: " . $conn->error;
 //   }
 
+// $sql = "CREATE TABLE users (
+//   Id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+//   Username VARCHAR(30) NOT NULL,  
+//   Email VARCHAR(50),
+// Department VARCHAR(30) NOT NULL,
+//   Password VARCHAR(50),
+//   Role VARCHAR(50)
+//   )";
+  
+//   if ($conn->query($sql) === TRUE) {
+//     echo "Table Users created successfully";
+//   } else {
+//     echo "Error creating table: " . $conn->error;
+//   }
 
  // define global constants
 //  define ('ROOT_PATH', realpath(dirname(__FILE__)));
